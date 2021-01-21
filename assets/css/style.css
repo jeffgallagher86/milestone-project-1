@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+/* ----------------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+/* ----------------------------------------------------Navbar */
+
+.navbar {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #8ee4af;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+/* ----------------------------------------------------General */
+
+
+.general-sub {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #8ee4af;
+}
+
+.copyright-text {
+    font-size: x-small;
+
+}
+
+
+/* ----------------------------------------------------Footer */
+
+footer {
+    background-color: #05386b;
+    margin: 0;
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+.footer-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+
+}
+
+.footer-copyright {
+    text-align: "Roboto", center;
+    color: #8ee4af;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+/* ----------------------------------------------------Credit Code Institute */
+
+.social-links { 
+    text-align: right;
+    padding-right: 12px;
+}
+
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #05386b;
+    background: #8ee4af;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #8ee4af;
+    background-color: #05386b;
+}
+
+/* ----------------------------------------------------Credit Code Institute */
+
+
+
+
