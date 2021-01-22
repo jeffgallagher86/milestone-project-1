@@ -8,57 +8,78 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Plough to Plate</title>
+    <title>The Veg Table</title>
 </head>
 
 <body>
     <header>
 
-<!-------------Credit Bootstrap-------------->
-         <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><h2><strong>The Veg Table</strong></h2></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-md-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Recipes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+        <!-------------Credit Bootstrap-------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h2><strong>The Veg Table</strong></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-md-auto navbar-link-items">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-<!-------------Credit Bootstrap-------------->
-        
+            </div>
+        </nav>
+        <!-------------Credit Bootstrap-------------->
+
     </header>
     <section>
 
+        <!-------------Image Carousel credit Bootstrap -------------->
+        
+            <div class="carousel-slide carousel-fade carousel-dimensions" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="assets/images/carrots_seeds_carousel.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/lemons_carousel.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/tomatos_asparagus_carousel.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <!-------------Image Carousel credit Bootdtrap -------------->
+
     </section>
-    <footer class="container-fluid">
+    <footer class="container-fluid bg-color-footer">
         <div class="row">
             <div class="col-sm-4 footer-copyright uppercase d-none d-md-block d-lg-block">
-                <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text">Jeff Gallagher</span>
+                <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher
+                    2021</span>
                 <span class="sr-only">Copyright</span>
-            </div> 
-            <div class="col-sm-4 general-sub footer-title">
+            </div>
+            <div class="col-5 col-sm-4 general-sub footer-title">
                 <p>The Veg Table
                 </p>
             </div>
-            
-            <div class="col-sm-4 general-sub footer-social-title">
-            	<ul class="list-inline social-links">
+
+            <div class="col-7 col-sm-4 general-sub footer-social-title">
+                <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
