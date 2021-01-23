@@ -22,10 +22,27 @@ header {
     margin: 0;
 }
 
-.uppercase {
-    text-transform: uppercase;
+
+
+.about-me {
+    background-color: #f8f8f8;
 }
 
+
+.about-section-image {
+    max-width: 100%;
+    padding: 60px;
+}
+
+.about-section-title {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: bolder;
+    color: #f5a732;
+}
+
+.about-section-content {
+    padding: 60px;
+}
 
 
 
@@ -45,7 +62,7 @@ header {
 .navbar-link-items {
     font-size: 15px;
     font-family: 'PT Sans', sans-serif;
-    padding: 0 20px 0 20px;
+    padding: 0 50px 0 50px;
 }
 
 
@@ -112,8 +129,8 @@ footer {
     font-size: 15px;
     line-height: 7px;
     text-align: center;
-    color: #05386b;
-    background: #8ee4af;
+    color: #4abdac;
+    background: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -121,8 +138,8 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #8ee4af;
-    background-color: #05386b;
+    color: #fafafa;
+    background-color: #4abdac;
 }
 
 /* ----------------------------------------------------Credit Code Institute */
