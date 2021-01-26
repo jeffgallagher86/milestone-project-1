@@ -70,7 +70,7 @@ h5 {
 /* ----------------------------------------------------About Me */
 
 .about-me {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 
@@ -97,15 +97,13 @@ h5 {
     color: #f5a732;
 }
 
-.featured-recipe-images {
-    
-}
+
 
 /* ----------------------------------------------------Sign up section */
 
 .sign-up-section {
-    margin: 40px;
-    padding: 40px;
+    margin: 40px
+    
 }
 
 .sign-up-form {
