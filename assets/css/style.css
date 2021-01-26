@@ -18,11 +18,56 @@
 
 /* ----------------------------------------------------Heading */
 
-header {
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
 }
 
+/* ----------------------------------------------------Navbar */
 
+.navbar {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    margin: 8px 25px 8px 25px;
+}
+
+
+
+.navbar-title {
+    padding-left: 10px;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.navbar-link-items {
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+    padding-right: 40px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.carousel {
+    width: 100%;
+}
+
+/* ----------------------------------------------------About Me */
 
 .about-me {
     background-color: #f8f8f8;
@@ -30,8 +75,7 @@ header {
 
 
 .about-section-image {
-    max-width: 100%;
-    padding: 60px;
+    padding: 40px
 }
 
 .about-section-title {
@@ -41,38 +85,43 @@ header {
 }
 
 .about-section-content {
-    padding: 60px;
+    padding: 40px;
 }
 
+/* ----------------------------------------------------Featured Recipe */
 
-
-
-/* ----------------------------------------------------Navbar */
-
-.navbar {
-    font-family: 'PT Sans Narrow', sans-serif;
+.featured-recipes-heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: bolder;
     text-decoration: none;
+    color: #f5a732;
 }
 
-.navbar-brand {
-    font-size: x-large;
-    padding-left: 20px;
+.featured-recipe-images {
+    
 }
 
-.navbar-link-items {
-    font-size: 15px;
-    font-family: 'PT Sans', sans-serif;
-    padding: 0 50px 0 50px;
+/* ----------------------------------------------------Sign up section */
+
+.sign-up-section {
+    margin: 40px;
+    padding: 40px;
 }
 
-
-
-.navbar-toggler {
-    border: none;
+.sign-up-form {
+    padding: 0, 20px, 0, 20px;
 }
 
-.nav-link-active {
-    float: right;
+.sign-up-heading {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+    color: #f5a732;
+}
+
+.btn-primary {
+    color: #4abdac;
+    background-color: transparent;
+    border-color: #4abdac;
 }
 
 /* ----------------------------------------------------General */
@@ -143,6 +192,15 @@ footer {
 }
 
 /* ----------------------------------------------------Credit Code Institute */
+
+/* ----------------------------------------------------Hover.css */
+
+.hvr-underline-from-left:before {
+    background: rgba(255, 255, 255, 0.5);
+    transition-duration: .4s;
+    height: 1px;
+    overflow: hidden;
+}
 
 
 
