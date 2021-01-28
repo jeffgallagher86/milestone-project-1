@@ -37,7 +37,7 @@ h5 {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-    margin: 8px 25px 8px 25px;
+    margin: 8px 15px 3px 25px;
 }
 
 
@@ -50,9 +50,14 @@ h5 {
 
 
 .navbar-link-items {
-    font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
     padding-right: 40px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff
 }
 
 .navbar-toggler {
@@ -91,10 +96,6 @@ h5 {
     padding: 40px;
 }
 
-.about-section-text {
-    
-}
-
 /* ----------------------------------------------------Featured Recipe */
 
 .featured-recipe-images {
@@ -104,7 +105,6 @@ h5 {
 .featured-recipes-heading {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: bolder;
-    text-decoration: none;
     color: #f5a732;
     margin-left: 40px;
 }
@@ -112,13 +112,20 @@ h5 {
 .recipe-image {
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
 }
 
 .recipe-link-text {
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-size: 17px;
     text-decoration: none;
     color: #4abdac;
+    text-transform: uppercase;
+    text-shadow: #f5a732;
 }
 
 .recipe-links-padding {
@@ -127,23 +134,18 @@ h5 {
 
 /* ----------------------------------------------------Recipes Page */
 
-#recipes-page-title {
-    margin-top: 40px;
-    margin-left: 0;
-
-}
 
 
 
 /* ----------------------------------------------------Sign up section */
 
+
 .sign-up-section {
-    margin: 40px
-    
+    margin: 40px;
 }
 
 .sign-up-form {
-    padding: 0, 20px, 0, 20px;
+    padding-bottom: 30px;
 }
 
 .sign-up-heading {
@@ -153,6 +155,12 @@ h5 {
 }
 
 .btn-primary {
+    background-color: #4abdac;
+    color: #fff;
+    border-color: #4abdac;
+}
+
+.btn-primary:hover {
     color: #4abdac;
     background-color: transparent;
     border-color: #4abdac;
