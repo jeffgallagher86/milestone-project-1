@@ -112,11 +112,6 @@ h5 {
 .recipe-image {
     padding-top: 20px;
     padding-bottom: 20px;
-    transition: transform .2s;
-}
-
-.zoom:hover {
-  transform: scale(1.5);
 }
 
 .recipe-link-text {
@@ -132,9 +127,30 @@ h5 {
     padding-top: 10px;
 }
 
+.recipe-image-and-title {
+    margin-bottom: 50px;
+}
+
 /* ----------------------------------------------------Recipes Page */
 
+.recipes-heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: bolder;
+    color: #f5a732;
+    margin-top: 50px;
+    text-decoration: underline;
+}
 
+.recipes-page-images {
+    margin: 20px 40px 40px 40px;
+}
+
+/* ----------------------------------------------------Individual recipes Page */
+
+
+.individual-recipe-page-content {
+    margin-top: 70px;
+}
 
 
 /* ----------------------------------------------------Sign up section */
