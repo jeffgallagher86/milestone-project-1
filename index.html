@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Veg Table</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -26,9 +27,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-md-auto navbar-link-items">
+                    <ul class="navbar-nav ms-md-auto navbar-link-items text-center">
                         <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" aria-current="page" href="#">Home</a>
+                            <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link hvr-underline-from-left" href="#about-section">About</a>
@@ -52,14 +53,14 @@
 
         <div class="carousel-slide carousel-fade carousel-dimensions carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="assets/images/carrots_seeds_landing.jpg" class="d-block img-fluid" alt="...">
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="assets/images/carrots_seeds_landing.jpg" class="d-block carousel-img" alt="Carrots & Seeds">
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="assets/images/man_noodles_kale.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="assets/images/man_noodles_kale.jpg" class="d-block carousel-img" alt="Noodles & Kale">
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="assets/images/asoggetti-qJjXwi2zNSE-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="assets/images/asoggetti-qJjXwi2zNSE-unsplash.jpg" class="d-block  carousel-img" alt="Oranges">
                 </div>
             </div>
         </div>
@@ -67,8 +68,8 @@
         <!-------------About Me-------------->
 
         <section class="about-me container-fluid" id="about-section">
-            <div class="row justify-content-center g-0">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="row justify-content-around g-0">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5">
                     <img class="about-section-image img-fluid" src="assets/images/smashed_avacodo_portrait.jpg"
                         alt="vegetables">
                 </div>
@@ -89,32 +90,31 @@
         <!-------------Featured Recipes-------------->
 
         <section class="container-fluid featured-recipes-section g-0">
-            <a href="#" class="text-decoration-none">
-                <h2 class="featured-recipes-heading text-uppercase">Featured Recipes</h2>
-            </a>
+                
             <div class="row featured-recipe-images text-center">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-image">
-                    <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid" alt="Roasted Blackbean Burgers">
+                <h2 class="featured-recipes-heading text-uppercase">Featured Recipes</h2>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-thumbnail">
+                    <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image" alt="Roasted Blackbean Burgers">
                     <div class="recipe-links-padding">
                     <a href="roasted_blackbean_burgers.html" class="recipe-link-text">Roasted Blackbean Burgers</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-image">
-                    <img src="assets/images/summer_tagliatele.jpg" class="img-fluid" alt="Summer Tagliatelle">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-thumbnail">
+                    <img src="assets/images/summer_tagliatele.jpg" class="img-fluid recipe-image" alt="Summer Tagliatelle">
                     <div class="recipe-links-padding">
                     <a href="summer_tagliatelle.html" class="recipe-link-text">Summer Tagliatelle</a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-image">
-                    <img src="assets/images/tempura-rolls.jpg" class="img-fluid" alt="Tempura Rolls">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-thumbnail">
+                    <img src="assets/images/tempura-rolls.jpg" class="img-fluid recipe-image" alt="Tempura Rolls">
                     <div class="recipe-links-padding">
                     <a href="tempura-rolls.html" class="recipe-link-text">Tempura Rolls</a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-image">
-                    <img src="assets/images/squash_feta_soup.jpg" class="img-fluid" alt="Squash and Feta Soup">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 recipe-thumbnail">
+                    <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image" alt="Squash and Feta Soup">
                     <div class="recipe-links-padding">
                     <a href="squash_and_feta_soup.html" class="recipe-link-text">Squash and Feta Soup</a>
                     </div>

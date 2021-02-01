@@ -37,23 +37,22 @@ h5 {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-    margin: 8px 15px 3px 25px;
+    margin: 8px 16px 4px 24px;
 }
 
 
 
 .navbar-title {
-    padding-left: 10px;
-    margin: 0;
-    font-size: 30px;
+    margin-left: 32px;
+    font-size: 32px;
 }
 
 
 .navbar-link-items {
-    font-size: 15px;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
     padding-right: 40px;
-    text-transform: uppercase;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -70,8 +69,15 @@ h5 {
     box-shadow: none;
 }
 
-.carousel {
+/* --------------------------------------Carousel */
+.carousel-img {
     width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-img {
+    height: 100vh;
+  }
 }
 
 /* ----------------------------------------------------About Me */
@@ -98,6 +104,11 @@ h5 {
 
 /* ----------------------------------------------------Featured Recipe */
 
+.featured-recipes-section {
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 10px;
+}
+
 .featured-recipe-images {
     margin: 40px;
 }
@@ -106,25 +117,50 @@ h5 {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: bolder;
     color: #f5a732;
-    margin-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-.recipe-image {
+.recipe-thumbnail {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.recipe-image:hover,
+.recipe-image:focus {
+    transition: box-shadow 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+    box-shadow: 0 0 11px rgba(19, 19, 19, 0.5); 
+    transform: scale(1.03);
+
+}
+
 .recipe-link-text {
-    font-family: "PT Sans", sans-serif;
-    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
     text-decoration: none;
-    color: #4abdac;
     text-transform: uppercase;
-    text-shadow: #f5a732;
+    color: #f5a732;
+}
+
+.recipe-link-text:hover {
+    transition: 0.3s ease-in-out;
+    color: #4abdac;
+}
+
+.img-underline-from-left:before {
+    background: #4abdac;
+    transition-duration: .4s;
+    height: 5px;
+    overflow: hidden;
 }
 
 .recipe-links-padding {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .recipe-image-and-title {
@@ -182,6 +218,16 @@ h5 {
     border-color: #4abdac;
 }
 
+.form-control {
+    width: 90%;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border:1px solid #fff;
+    box-shadow: 0 0 10px #f5a732;
+}
+
 /* ----------------------------------------------------General */
 
 
@@ -204,7 +250,6 @@ footer {
     font-weight: 700;
     text-align: center;
     font-size: 25px;
-    opacity: 0.5;
 
 }
 
@@ -213,7 +258,6 @@ footer {
     text-align: "center";
     color: white;
     font-size: x-small;
-    opacity: 0.5;
     letter-spacing: 1px;
     font-weight: 400;
     padding: 10px 0 0 32px;
@@ -249,7 +293,7 @@ footer {
     background-color: #4abdac;
 }
 
-/* ----------------------------------------------------Credit Code Institute */
+
 
 /* ----------------------------------------------------Hover.css */
 
@@ -259,6 +303,15 @@ footer {
     height: 1px;
     overflow: hidden;
 }
+
+
+
+/* -------------------------------------------Media Queries */
+
+
+
+  
+
 
 
 
