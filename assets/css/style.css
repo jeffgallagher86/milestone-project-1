@@ -37,8 +37,9 @@ h5 {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-    margin: 8px 16px 4px 24px;
+    margin: 16px 16px 2px 24px;
 }
+
 
 
 
@@ -73,8 +74,8 @@ h5 {
 
 .hero-img-container {
     background-image: url("../images/carrots_seeds_landing.jpg");
-    padding-top: 500px;
-    height: 70%;
+    padding-top: 62px;
+    height: calc(80vh - 62px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,7 +139,7 @@ h5 {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     box-shadow: 0 0 11px rgba(19, 19, 19, 0.5); 
     transform: scale(1.03);
 
@@ -150,19 +151,15 @@ h5 {
     font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;
-    color: #f5a732;
+    color: #4abdac;
 }
 
 .recipe-link-text:hover {
     transition: 0.3s ease-in-out;
-    color: #4abdac;
-}
-
-.img-underline-from-left:before {
-    background: #4abdac;
-    transition-duration: .4s;
-    height: 5px;
-    overflow: hidden;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    color: #27776b;
 }
 
 .recipe-links-padding {
@@ -196,6 +193,16 @@ h5 {
     padding-right: 20px;
 }
 
+.recipe-icons i {
+    width: 32px;
+    height: 32px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 8px;
+    color: #4abdac;
+}
+
 .recipe-icons-sect {
     margin-bottom: 30px;
 }
@@ -210,10 +217,10 @@ h5 {
 
 
 .individual-recipe-page-content {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
-.individual-recipe-page-content h2, h3 {
+.individual-recipe-page-content h1, h2, h3 {
     margin-bottom: 24px;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: bolder;
@@ -235,9 +242,25 @@ h5 {
     border: 1px solid #f5a732;
 }
 
+
 .individual-recipe-page-content ol, li {
     font-family: "Open Sans" sans-serif;
     margin-bottom: 10px;
+}
+
+.individual-recipe-page-content {
+    margin-bottom: 50px;
+}
+
+.related-recipes-section {
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 10px;
+}
+
+.related-recipes-section h2 {
+    padding-top: 20px;
+    margin: 30px;
+    text-decoration: underline;
 }
 
 /* ----------------------------------------------------with thanks to user on Stack Overflow */
@@ -288,8 +311,9 @@ h5 {
     border-color: #4abdac;
 }
 
+
 .form-control {
-    
+    width: 95%;
 }
 
 .form-control:focus {
@@ -330,17 +354,14 @@ footer {
     font-size: x-small;
     letter-spacing: 1px;
     font-weight: 400;
-    padding: 10px 0 0 32px;
+    padding-top: 10px;
 }
 
 /* ----------------------------------------------------Credit Code Institute */
 
 .social-links { 
-    text-align: right;
-    padding-right: 12px;
+    text-align: center;
 }
-
-
 
 .social-links li a i {
     width: 32px;
