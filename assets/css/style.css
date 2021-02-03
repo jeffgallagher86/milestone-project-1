@@ -453,9 +453,7 @@ footer {
   .hero-img-inner h1 {
         font-size: 50px;
   }
-}
 
-@media screen and (max-width: 800px) and (max-height: 450px) {
   .hero-subheading {
     margin: 10px;
     font-size: 20px;
