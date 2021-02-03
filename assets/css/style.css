@@ -3,11 +3,11 @@
 /* ---------------------------------------------------Colours */
 
 .bg-color-navbar {
-    background-color: #4abdac;
+    background-color: #095445;
 }
 
 .bg-color-footer {
-    background-color: #4abdac;
+    background-color: #095445;
 }
 
 
@@ -98,6 +98,7 @@ h5 {
     border: 10px solid white;
     padding: 6px 14px;
     display: inline-block;
+    text-shadow: 3px 4px 7px rgba(3, 43, 23, 0.459);
 }
 
 
@@ -106,6 +107,7 @@ h5 {
     margin: 20px;
     display: block;
     font-size: 26px;
+    text-shadow: 3px 4px 7px rgba(3, 43, 23, 0.459);
 }
 
 
