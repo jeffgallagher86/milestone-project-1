@@ -45,6 +45,13 @@ h5 {
     padding-right: 40px;
 }
 
+.hvr-underline-from-left:before {
+    background: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.4s;
+    height: 1.5px;
+    overflow: hidden;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
@@ -306,7 +313,7 @@ footer {
     padding-top: 10px;
 }
 
-/* ----------------------------------------------------Credit Code Institute */
+/* ----------------------------------------------------Credit Code Institute tutorial */
 
 .social-links {
     text-align: center;
@@ -331,15 +338,6 @@ footer {
 .social-links li a i:hover {
     color: #fafafa;
     background-color: #266867;
-}
-
-/* ----------------------------------------------------Hover.css */
-
-.hvr-underline-from-left:before {
-    background: rgba(255, 255, 255, 0.5);
-    transition-duration: 0.4s;
-    height: 1.5px;
-    overflow: hidden;
 }
 
 /* -------------------------------------------Media Queries */
