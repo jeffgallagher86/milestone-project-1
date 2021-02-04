@@ -64,7 +64,10 @@ h5 {
     box-shadow: none;
 }
 
-/* --------------------------------------Hero Image with some code from DarkCode youtube channel */
+/* --------------------------------------Hero Image-R.F Studio https://www.pexels.com/photo/photo-of-person-holding-fork-3621221/ */
+
+/* --------------------------------------Text overlay code adapted from https://www.youtube.com/watch?v=dJQedxalv64 */
+
 
 .hero-img-container {
     position: relative;
@@ -166,6 +169,11 @@ h5 {
     text-transform: uppercase;
     color: #f58800;
     margin-top: 12px;
+}
+
+.recipe-link-text:hover {
+    color: #266867;
+    transition: all 0.5s ease-in-out;
 }
 
 /* ----------------------------------------------------Individual recipes Page */

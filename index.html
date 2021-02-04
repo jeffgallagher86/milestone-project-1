@@ -1,220 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Veg Table</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>The Veg Table</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Veg Table</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>The Veg Table</title>
-</head>
+    <body>
+        <!-------------Header & Navbar adapted from Bootstrap docs https://getbootstrap.com/docs/5.0/components/navbar/-------------->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+                <div class="container-fluid g-0">
+                    <a class="navbar-brand" href="index.html">
+                        <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="#about-section">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="#featured-recipes">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="#sign-up">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <!-------------Hero Image Section-------------->
 
-<body>
-    <!-------------Header & Navbar adapted from Bootstrap docs https://getbootstrap.com/docs/5.0/components/navbar/-------------->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
-            <div class="container-fluid g-0">
-                <a class="navbar-brand" href="index.html">
-                    <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+            <section class="container-fluid g-0">
+                <div class="hero-img-container img-fluid">
+                    <div class="hero-img-inner">
+                        <h1><span>The Veg Table</span></h1>
+                        <span class="hero-subheading">Pull up a seat</span>
+                    </div>
+                </div>
+            </section>
+            <!-------------About Me Section-------------->
+
+            <!-----Smashed Avocado Image-Daria Shevtsova https://www.pexels.com/photo/cooked-food-704569/---->
+
+            <section class="container-fluid about-section-content g-0" id="about-section">
+                <div class="row justify-content-around about-me g-0">
+                    <div class="col-10 col-sm-4 col-lg-4 about-me order-sm-first">
+                        <img class="img-fluid" src="assets/images/smashed_avocado_portrait.jpg" alt="Avocado Toast" />
+                    </div>
+
+                    <div class="col-10 col-sm-4 col-lg-4 about-me about-section-content text-center align-self-center order-first">
+                        <h2 class="about-section-title text-uppercase">
+                            Welcome!
+                        </h2>
+                        <p class="about-section-text">
+                            Hey guys, pull up a seat and join us at The Veg Table. Here at The Veg Table our mission is to bring you our freshest and tastiest veggie based recipes. Whether you're thinking about adding a few plant-based
+                            meals to your diet or have already moved toward 100% meat-free, we'll definitely have the right recipe for you.
+                        </p>
+                        <p>
+                            Please have a look around, we are constantly updating our site with tasty recipes. If you want an update on the latest recipes on our site, you can
+                            <a href="#sign-up" class="about-me-sign-up">Sign Up</a> to our weekly newsletter below. Also, be sure to follow us on our various socials which we update daily.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------Featured Recipes Section-------------->
+            <!--------Squash Soup image-Cala https://unsplash.com/photos/w6ftFbPCs9I all other images from https://www.jamieoliver.com/--------->
+
+            <section class="container-fluid featured-recipes-section g-0">
+                <div class="row featured-recipe-images justify-content-around text-center g-0" id="featured-recipes">
+                    <h2 class="text-uppercase">Featured Recipes</h2>
+                    <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
+                        <a href="roasted_blackbean_burgers.html">
+                            <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image" alt="Roasted Blackbean Burgers" />
+                            <div class="recipe-link-text">Roasted Blackbean Burgers</div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
+                        <a href="summer_tagliatelle.html">
+                            <img src="assets/images/summer_tagliatele.jpg" class="img-fluid recipe-image" alt="Summer Tagliatelle" />
+                            <div class="recipe-link-text">Summer Tagliatelle</div>
+                        </a>
+                    </div>
+
+                    <div class="w-100 d-none d-sm-block d-lg-none"></div>
+
+                    <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
+                        <a href="tempura-rolls.html">
+                            <img src="assets/images/tempura-rolls.jpg" class="img-fluid recipe-image" alt="Tempura Rolls" />
+                            <div class="recipe-link-text">
+                                Tempura Rolls
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
+                        <a href="squash_and_feta_soup.html">
+                            <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image" alt="Squash and Feta Soup" />
+                            <div class="recipe-link-text">Squash and Feta Soup</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------Sign up form section with some code from Bootstrap Docs-------------->
+
+            <section class="container-fluid sign-up g-0" id="sign-up">
+                <div class="row justify-content-around sign-up-section g-0">
+                    <div class="col-10 col-md-5 align-self-center sign-up-form">
+                        <form>
+                            <h3 class="sign-up-heading text-uppercase text-center text-md-start">Sign up for weekly recipes</h3>
+                            <p class="text-center text-md-start">Sign up for our newsletter, fresh recipes straight to your inbox every week!</p>
+                            <div class="text-center text-md-start">
+                                <div class="mb-4">
+                                    <label for="exampleInputEmail1" class="form-label"></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Please enter your Email address" aria-describedby="emailHelp" />
+                                    <div id="emailHelp" class="form-text"></div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign me up!</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-------------Squash Image Tijana Drndarski https://unsplash.com/photos/pZjTMVTGjlc--------------->
+                    <div class="col-10 col-md-5 d-block d-sm-none d-md-block">
+                        <img src="assets/images/squash_sign_up.jpg" class="img-fluid" alt="squash_image" />
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-------------Footer Section with code adapted from Code Institue Rosie tutorial-------------->
+
+        <footer class="container-fluid bg-color-footer">
+            <div class="row justify-content-around g-0">
+                <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
+                    <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher 2021</span>
+                    <span class="sr-only">Copyright</span>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-title">
+                    <p>The Veg Table</p>
+                </div>
+
+                <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-social-title">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="#about-section">About</a>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="#featured-recipes">Recipes</a>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/home" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="#sign-up">Sign Up</a>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-    <section>
+        </footer>
 
-        <!-------------Hero Image Section-------------->
+        <!------------Javascript for Navbar Toggler menu from Bootstrap Docs--------------->
 
-        <section class="container-fluid g-0">
-            <div class="hero-img-container img-fluid">
-                <div class="hero-img-inner">
-                    <h1><span>The Veg Table</span></h1>
-                    <span class="hero-subheading">Pull up a seat</span>
-                </div>
-            </div>
-        </section>
-        <!-------------About Me Section-------------->
-
-        <section class="container-fluid about-section-content g-0" id="about-section">
-            <div class="row justify-content-around about-me g-0">
-                <div class="col-10 col-sm-4 col-lg-4 about-me order-sm-first">
-                    <img class="img-fluid" src="assets/images/smashed_avocado_portrait.jpg" alt="Avocado Toast">
-                </div>
-
-
-                <div
-                    class="col-10 col-sm-4 col-lg-4 about-me about-section-content text-center align-self-center order-first">
-                    <h2 class="about-section-title text-uppercase">
-                        Welcome!
-                    </h2>
-                    <p class="about-section-text">
-                        Hey guys, pull up a seat and join us at The Veg Table. Here at The Veg Table our mission is to
-                        bring you our freshest and tastiest veggie based recipes. Whether you're thinking about adding a
-                        few plant-based meals to your diet or have already moved toward 100% meat-free, we'll definitely have the right recipe for you.
-                        </p>
-                        <p> 
-                        Please have a look around, we are constantly updating our site with tasty recipes. If you want an update on the latest recipes on our site, you can <a href="#sign-up" class="about-me-sign-up"><strong>Sign Up</strong></a> to our weekly newsletter below. Also, be sure to follow us on our various socials which we update daily.
-                        </p>
-                </div>
-
-            </div>
-        </section>
-
-        <!-------------Featured Recipes Section-------------->
-
-        <section class="container-fluid featured-recipes-section g-0">
-            <div class="row featured-recipe-images justify-content-around text-center g-0" id="featured-recipes">
-                <h2 class="text-uppercase">Featured Recipes</h2>
-                <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
-                    <a href="roasted_blackbean_burgers.html">
-                        <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image"
-                            alt="Roasted Blackbean Burgers">
-                        <div class="recipe-link-text">Roasted Blackbean Burgers</div>
-                    </a>
-                </div>
-                <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
-                    <a href="summer_tagliatelle.html">
-                        <img src="assets/images/summer_tagliatele.jpg" class="img-fluid recipe-image"
-                            alt="Summer Tagliatelle">
-                        <div class="recipe-link-text">Summer Tagliatelle</div>
-                    </a>
-                </div>
-
-                <div class="w-100 d-none d-sm-block d-lg-none"></div>
-
-                <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
-                    <a href="tempura-rolls.html">
-                        <img src="assets/images/tempura-rolls.jpg" class="img-fluid recipe-image" alt="Tempura Rolls">
-                        <div class="recipe-link-text">
-                            Tempura Rolls</div>
-                    </a>
-                </div>
-
-                <div class="col-10 col-sm-4 col-lg-2 recipe-thumbnail">
-                    <a href="squash_and_feta_soup.html">
-                        <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image"
-                            alt="Squash and Feta Soup">
-                        <div class="recipe-link-text">Squash and Feta Soup</div>
-                    </a>
-
-                </div>
-            </div>
-
-        </section>
-
-        <!-------------Sign up form section-------------->
-
-        <section class="container-fluid sign-up g-0" id="sign-up">
-            <div class="row justify-content-around sign-up-section g-0">
-                <div class="col-10 col-md-5 align-self-center sign-up-form">
-                    <form>
-                        <h3 class="sign-up-heading text-uppercase text-center text-md-start">Sign up for weekly recipes
-                        </h3>
-                        <p class="text-center text-md-start">Sign up for our newsletter, fresh recipes straight to your
-                            inbox every week!</p>
-                        <div class="text-center text-md-start">
-                            <div class="mb-4">
-                                <label for="exampleInputEmail1" class="form-label"></label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Please enter your Email address" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text"></div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Sign me up!</button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="col-10 col-md-5 d-block d-sm-none d-md-block">
-                    <img src="assets/images/squash_sign_up.jpg" class="img-fluid" alt="squash_image">
-
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
-    </section>
-
-    <!-------------Footer Section with code adapted from Code Institue Rosie tutorial-------------->
-
-    <footer class="container-fluid bg-color-footer">
-        <div class="row justify-content-around g-0">
-            <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
-                <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher
-                    2021</span>
-                <span class="sr-only">Copyright</span>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-title">
-                <p>The Veg Table
-                </p>
-            </div>
-
-            <div class="col-12 col-sm-4 col-md-3 col-lg-3 footer-social-title">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://twitter.com/home" target="_blank">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-
-    </footer>
-
-   <!------------Javascript for Navbar Toggler menu from Bootstrap Docs---------------> 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-
-</body>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
 </html>
