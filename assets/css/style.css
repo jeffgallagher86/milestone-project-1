@@ -240,7 +240,6 @@ li {
 .related-recipes-section h2 {
     padding-top: 20px;
     margin: 30px;
-    text-decoration: underline;
 }
 
 /* ---------------------------------------------------- Credit to user @ https://stackoverflow.com/questions/3200249/html-list-style-type-dash */
@@ -318,7 +317,7 @@ footer {
 }
 
 .footer-copyright {
-    text-align: "center";
+    text-align: center;
     color: white;
     font-size: x-small;
     letter-spacing: 1px;

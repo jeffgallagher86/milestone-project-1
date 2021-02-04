@@ -1,209 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tempura Rolls | The Veg Table</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempura Rolls | The Veg Table</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <body>
+        <!-------Header & Navbar adapted from Bootstrap docs https://getbootstrap.com/docs/5.0/components/navbar/--------->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+                <div class="container-fluid g-0">
+                    <a class="navbar-brand" href="index.html">
+                        <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#about-section">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#featured-recipes">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#sign-up">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-</head>
+        <!-------------Content Credit https://www.jamieoliver.com/recipes/vegetable-recipes/jessica-chastain-s-tempura/-------------->
 
-<body>
-    <header>
+        <section class="container-fluid individual-recipe-page-content g-0">
+            <div class="row recipe-image-and-title justify-content-around g-0">
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-sm-first recipe-page-title-image">
+                    <img src="assets/images/tempura-rolls.jpg" class="img-fluid" alt="Tempura Rolls" />
+                </div>
 
-        <!-------------Credit Bootstrap-------------->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
-            <div class="container-fluid g-0">
-                <a class="navbar-brand" href="index.html">
-                    <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-first recipe-page-title-content">
+                    <h1>Tempura Rolls</h1>
+                    <p>
+                        Full of life and colour, these beautiful vegan ‘stained glass’ rolls are a real celebration of amazing veg. You can prep the dips, pickle and veg in advance, but fry your tempura just before eating to keep it crisp.
+                        Insanely good!
+                    </p>
+
+                    <div class="recipe-icons-sect">
+                        <span class="recipe-icons"><i class="far fa-clock"></i>1 Hr 10 Minutes</span>
+                        <span class="recipe-icons"><i class="fas fa-users"></i>Serves 6</span>
+                    </div>
+
+                    <div>
+                        <span class="recipe-tags">Tempura</span>
+                        <span class="recipe-tags">Asian</span>
+                        <span class="recipe-tags">Cauliflower</span>
+                        <span class="recipe-tags">Vegetables</span>
+                        <span class="recipe-tags">Mains</span>
+                        <span class="recipe-tags">Healthy</span>
+                    </div>
+                </div>
+            </div>
+            <!-------------Ingredients & Method Section-------------->
+            <div class="row method-ingredients justify-content-center ingredients-method-section g-0">
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>2 -3 heritage carrots</li>
+                        <li>2 Lebanese cucumbers , or 1 cucumber</li>
+                        <li>1 bunch of fresh chervil , (30g)</li>
+                        <li>½ a bunch of fresh tarragon , (15g)</li>
+                        <li>1 large handful of red grapes</li>
+                        <li>1 large handful of radishes</li>
+                        <li>1 romaine lettuce</li>
+                        <li>30 g micro herbs , (pea shoots, purple radish, wasabi mustard)</li>
+                        <li>30 g mixed beansprouts , (mung, adzuki, chickpea, lentil)</li>
+                        <li>12 rice paper wrappers</li>
+                        <li>2 cauliflowers , (800g)</li>
+                        <li>400 g gluten-free self-raising flour</li>
+                        <li>2 litres vegetable oil , for deep frying</li>
+                    </ul>
+                </div>
+
+                <div class="col-10 col-sm-6 col-md-6 col-lg-6">
+                    <h2>Method</h2>
+                    <ol>
+                        <li>
+                            For the rice rolls, start by prepping the veg. Scrub the carrots, then shave into long ribbons along with the cucumber. Pick the chervil and tarragon, finely slice the grapes and the radishes. Separate the
+                            lettuce leaves, wash and dry, then arrange everything, including the micro herbs and beansprouts, on a large platter ready for your guests to assemble. Don’t forget you will need to soak the rice paper in water
+                            for about 40 seconds before making up your rolls.
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#about-section">About</a>
+                        <li>For the tempura, break the cauliflower into large florets. Whisk the flour with 600ml cold water until you have a smooth batter.</li>
+                        <li>
+                            Half-fill a large sturdy pan with about 2 litres of oil (or use a deep-fat fryer) and place on a medium to high heat. Use a thermometer to get it to 180°C, or test with a cube of bread – if it floats and turns
+                            golden, you’ll be about right. If the oil starts to smoke at any point, reduce the heat a little.
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#featured-recipes">Recipes</a>
+                        <li>
+                            Dip the cauliflower in the batter and fry for about 5 minutes, or until golden and crisp – you will need to do this in batches. Remove with a slotted spoon to kitchen paper and season. Get everyone seated and let
+                            your guests make up their own rolls with a bit of everything while you get on with frying the next batch.
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#sign-up">Sign Up</a>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-------------Related Recipes-------------->
+
+        <section class="container-fluid related-recipes-section g-0">
+            <div class="row text-center justify-content-around g-0">
+                <h2 class="text-uppercase">Related Recipes</h2>
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="roasted_blackbean_burgers.html">
+                        <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image" alt="Blackbean Burgers" />
+                        <div class="recipe-link-text">Roasted Blackbean Burgers</div>
+                    </a>
+                </div>
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="summer_tagliatelle.html">
+                        <img src="assets/images/summer_tagliatele.jpg" class="img-fluid recipe-image" alt="Summer Tagliatelle" />
+                        <div class="recipe-link-text">Summer Tagliatelle</div>
+                    </a>
+                </div>
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="squash_and_feta_soup.html">
+                        <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image" alt="Squash and Feta Soup" />
+                        <div class="recipe-link-text">Squash and Feta Soup</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------Footer Section with code adapted from Code Institue Rosie tutorial-------------->
+
+        <footer class="container-fluid bg-color-footer">
+            <div class="row justify-content-around g-0">
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
+                    <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher 2021</span>
+                    <span class="sr-only">Copyright</span>
+                </div>
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-title">
+                    <p>The Veg Table</p>
+                </div>
+
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-social-title">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/home" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-    
-    <!-------------Content Credit https://www.jamieoliver.com/recipes/vegetable-recipes/jessica-chastain-s-tempura/-------------->
+        </footer>
 
-    <section class="container-fluid individual-recipe-page-content g-0">
-        <div class="row recipe-image-and-title justify-content-around g-0">
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-sm-first recipe-page-title-image">
-                <img src="assets/images/tempura-rolls.jpg" class="img-fluid" alt="Tempura Rolls">
-            </div>
+        <!------------Javascript for Navbar Toggler menu from Bootstrap Docs--------------->
 
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-first recipe-page-title-content">
-                <h1>Tempura Rolls</h1>
-                <p>Full of life and colour, these beautiful vegan ‘stained glass’ rolls are a real celebration of amazing veg. You can prep the dips, pickle and veg in advance, but fry your tempura just before eating to keep it crisp. Insanely good! 
-                </p>
-
-                <div class="recipe-icons-sect">
-                    <span class="recipe-icons"><i class="far fa-clock"></i>1 Hr 10 Minutes</span>
-                    <span class="recipe-icons"><i class="fas fa-users"></i>Serves 6</span>
-                </div>
-
-                <div>
-                    <span class="recipe-tags">Tempura</span>
-                    <span class="recipe-tags">Asian</span>
-                    <span class="recipe-tags">Cauliflower</span>
-                    <span class="recipe-tags">Vegetables</span>
-                    <span class="recipe-tags">Mains</span>
-                    <span class="recipe-tags">Healthy</span>
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="row method-ingredients justify-content-center ingredients-method-section g-0">
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4">
-                <h2>Ingredients</h2>
-                <ul class="ingredient-list">
-                    <li>2 -3 heritage carrots</li>
-                    <li>2 Lebanese cucumbers , or 1 cucumber</li>
-                    <li>1 bunch of fresh chervil , (30g)</li>
-                    <li>½ a bunch of fresh tarragon , (15g)</li>
-                    <li>1 large handful of red grapes</li>
-                    <li>1 large handful of radishes</li>
-                    <li>1 romaine lettuce</li>
-                    <li>30 g micro herbs , (pea shoots, purple radish, wasabi mustard)</li>
-                    <li>30 g mixed beansprouts , (mung, adzuki, chickpea, lentil)</li>
-                    <li>12 rice paper wrappers</li>
-                    <li>2 cauliflowers , (800g)</li>
-                    <li>400 g gluten-free self-raising flour</li>
-                    <li>2 litres vegetable oil , for deep frying</li>
-                </ul>
-            </div>
-
-            <div class="col-10 col-sm-6 col-md-6 col-lg-6">
-                <h2>Method</h2>
-                <ol>
-                    <li>For the rice rolls, start by prepping the veg. Scrub the carrots, then shave into long ribbons along with the cucumber. Pick the chervil and tarragon, finely slice the grapes and the radishes. Separate the lettuce leaves, wash and dry, then arrange everything, including the micro herbs and beansprouts, on a large platter ready for your guests to assemble. Don’t forget you will need to soak the rice paper in water for about 40 seconds before making up your rolls.
-                    </li>
-                    <li>For the tempura, break the cauliflower into large florets. Whisk the flour with 600ml cold water until you have a smooth batter.
-                    </li>
-                    <li>Half-fill a large sturdy pan with about 2 litres of oil (or use a deep-fat fryer) and place on a medium to high heat. Use a thermometer to get it to 180°C, or test with a cube of bread – if it floats and turns golden, you’ll be about right. If the oil starts to smoke at any point, reduce the heat a little.</li>
-                    <li>Dip the cauliflower in the batter and fry for about 5 minutes, or until golden and crisp – you will need to do this in batches. Remove with a slotted spoon to kitchen paper and season. Get everyone seated and let your guests make up their own rolls with a bit of everything while you get on with frying the next batch.</li>
-                </ol>
-            </div>
-
-
-
-
-
-        </div>
-
-
-
-    </section>
-
-
-
-    <!-------------Related Recipes-------------->
-
-    <section class="container-fluid related-recipes-section g-0">
-        <div class="row text-center justify-content-around g-0">
-            <h2 class="text-uppercase">Related Recipes</h2>
-            <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-                <a href="roasted_blackbean_burgers.html">
-                    <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image"
-                        alt="Blackbean Burgers">
-                    <div class="recipe-link-text">Roasted Blackbean Burgers</div>
-                </a>
-            </div>
-            <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-                <a href="summer_tagliatelle.html">
-                    <img src="assets/images/summer_tagliatele.jpg" class="img-fluid recipe-image"
-                        alt="Summer Tagliatelle">
-                    <div class="recipe-link-text">Summer Tagliatelle</div>
-                </a>
-            </div>
-            <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-                <a href="squash_and_feta_soup.html">
-                    <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image"
-                        alt="Squash and Feta Soup">
-                    <div class="recipe-link-text">Squash and Feta Soup</div>
-                </a>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!-------------Footer-------------->
-
-    <footer class="container-fluid bg-color-footer">
-        <div class="row justify-content-around g-0">
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
-                <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher
-                    2021</span>
-                <span class="sr-only">Copyright</span>
-            </div>
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-title">
-                <p>The Veg Table
-                </p>
-            </div>
-
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-social-title">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://twitter.com/home" target="_blank">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-
-</body>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
 </html>

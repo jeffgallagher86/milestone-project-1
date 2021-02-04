@@ -1,216 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Summer Tagliatelle | The Veg Table</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer Tagliatelle | The Veg Table</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <body>
+        <!-------Header & Navbar adapted from Bootstrap docs https://getbootstrap.com/docs/5.0/components/navbar/--------->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+                <div class="container-fluid g-0">
+                    <a class="navbar-brand" href="index.html">
+                        <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#about-section">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#featured-recipes">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-left" href="index.html#sign-up">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-</head>
+        <!-------------Content Credit https://www.jamieoliver.com/recipes/pasta-recipes/summer-tagliatelle/-------------->
 
-<body>
-    <header>
+        <section class="container-fluid individual-recipe-page-content g-0">
+            <div class="row recipe-image-and-title justify-content-around g-0">
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-sm-first recipe-page-title-image">
+                    <img src="assets/images/summer_tagliatele.jpg" class="img-fluid" alt="Tagliatelle" />
+                </div>
 
-        <!-------------Credit Bootstrap-------------->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
-            <div class="container-fluid g-0">
-                <a class="navbar-brand" href="index.html">
-                    <h1 class="navbar-title"><strong>The Veg Table</strong></h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-md-auto navbar-link-items text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" aria-current="page" href="index.html">Home</a>
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-first recipe-page-title-content">
+                    <h1>Summer Tagliatelle</h1>
+                    <p>Ribbons off beautiful pasta, spuds and green veg smothered in a zingy & nutty pesto. This heart dinner is big on flavour. You're in for a treat.</p>
+
+                    <div class="recipe-icons-sect">
+                        <span class="recipe-icons"><i class="far fa-clock"></i>20 Minutes</span>
+                        <span class="recipe-icons"><i class="fas fa-users"></i>Serves 4</span>
+                    </div>
+
+                    <div>
+                        <span class="recipe-tags">Vegetables</span>
+                        <span class="recipe-tags">Mains</span>
+                        <span class="recipe-tags">Healthy</span>
+                        <span class="recipe-tags">Dinner</span>
+                        <span class="recipe-tags">Pasta</span>
+                        <span class="recipe-tags">Pesto</span>
+                    </div>
+                </div>
+            </div>
+            <!-------------Ingredients & Method Section-------------->
+            <div class="row method-ingredients justify-content-center ingredients-method-section g-0">
+                <div class="col-10 col-sm-5 col-md-5 col-lg-4">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>1 bunch of fresh basil , (30g)</li>
+                        <li>½ a clove of garlic</li>
+                        <li>50 g blanched almonds</li>
+                        <li>Extra virgin olive oil</li>
+                        <li>25 g parmesan cheese , plus extra to serve</li>
+                        <li>¼ of a lemon</li>
+                        <li>1 maris Piper potatos</li>
+                        <li>125 g green beans</li>
+                        <li>300 g tagliatelle</li>
+                        <li>200 g delicate summer veg , such as broad</li>
+                        <li>Beans, peas, tenderstem broccoli</li>
+                    </ul>
+                </div>
+
+                <div class="col-10 col-sm-6 col-md-6 col-lg-6">
+                    <h2>Method</h2>
+                    <ol>
+                        <li>
+                            Pick most of the basil leaves into a pestle and mortar and bash to a paste with a pinch of sea salt. Peel and bash in the garlic, then pound in the almonds until fine. Muddle in 4 tablespoons of oil, finely grate
+                            in the Parmesan, then squeeze in the lemon juice. Season to perfection, and tweak to your liking.
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#about-section">About</a>
+                        <li>
+                            Scrub and finely slice the potato, trim just the stalks off the beans, then place both in a pan of boiling salted water with the tagliatelle and cook according to the pasta packet instructions. Prep the delicate
+                            summer veg as necessary, adding them to the pan for the last 3 minutes. Drain, reserving a mugful of starchy cooking water, then toss with the pesto, loosening with a splash of reserved cooking water, if needed.
+                            Drizzle with 1 tablespoon of oil, and finish with the remaining basil and a fine grating of Parmesan. Nice served with a crunchy seasonal salad.
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#featured-recipes">Recipes</a>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-------------Related Recipes-------------->
+
+        <section class="container-fluid related-recipes-section g-0">
+            <div class="row text-center justify-content-around g-0">
+                <h2 class="text-uppercase">Related Recipes</h2>
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="roasted_blackbean_burgers.html">
+                        <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image" alt="Blackbean Burgers" />
+                        <div class="recipe-link-text">Roasted Blackbean Burgers</div>
+                    </a>
+                </div>
+
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="tempura-rolls.html">
+                        <img src="assets/images/tempura-rolls.jpg" class="img-fluid recipe-image" alt="Tempura Rolls" />
+                        <div class="recipe-link-text">Tempura Rolls</div>
+                    </a>
+                </div>
+
+                <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
+                    <a href="squash_and_feta_soup.html">
+                        <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image" alt="Squash and Feta Soup" />
+                        <div class="recipe-link-text">Squash and Feta Soup</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------Footer Section with code adapted from Code Institue Rosie tutorial-------------->
+
+        <footer class="container-fluid bg-color-footer">
+            <div class="row justify-content-around g-0">
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
+                    <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher 2021</span>
+                    <span class="sr-only">Copyright</span>
+                </div>
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-title">
+                    <p>The Veg Table</p>
+                </div>
+
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-social-title">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-left" href="index.html#sign-up">Sign Up</a>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/home" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
+        </footer>
 
-    <!-------------Content Credit https://www.jamieoliver.com/recipes/pasta-recipes/summer-tagliatelle/-------------->
+        <!------------Javascript for Navbar Toggler menu from Bootstrap Docs--------------->
 
-    <section class="container-fluid individual-recipe-page-content g-0">
-        <div class="row recipe-image-and-title justify-content-around g-0">
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-sm-first recipe-page-title-image">
-                <img src="assets/images/summer_tagliatele.jpg" class="img-fluid" alt="Tagliatelle">
-            </div>
-
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4 order-first recipe-page-title-content">
-                <h1>Summer Tagliatelle</h1>
-                <p>Ribbons off beautiful pasta, spuds and green veg smothered in a zingy & nutty pesto.
-                    This heart dinner is big on flavour. You're in for a treat.
-                </p>
-
-                <div class="recipe-icons-sect">
-                    <span class="recipe-icons"><i class="far fa-clock"></i>20 Minutes</span>
-                    <span class="recipe-icons"><i class="fas fa-users"></i>Serves 4</span>
-                </div>
-
-                <div>
-                    <span class="recipe-tags">Vegetables</span>
-                    <span class="recipe-tags">Mains</span>
-                    <span class="recipe-tags">Healthy</span>
-                    <span class="recipe-tags">Dinner</span>
-                    <span class="recipe-tags">Pasta</span>
-                    <span class="recipe-tags">Pesto</span>
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="row method-ingredients justify-content-center ingredients-method-section g-0">
-            <div class="col-10 col-sm-5 col-md-5 col-lg-4">
-                <h2>Ingredients</h2>
-                <ul class="ingredient-list">
-                    <li>1 bunch of fresh basil , (30g)</li>
-                    <li>½ a clove of garlic</li>
-                    <li>50 g blanched almonds</li>
-                    <li>Extra virgin olive oil</li>
-                    <li>25 g parmesan cheese , plus extra to serve</li>
-                    <li>¼ of a lemon</li>
-                    <li>1 maris Piper potatos</li>
-                    <li>125 g green beans</li>
-                    <li>300 g tagliatelle</li>
-                    <li>200 g delicate summer veg , such as broad</li>
-                    <li>Beans, peas, tenderstem broccoli</li>
-                </ul>
-            </div>
-
-            <div class="col-10 col-sm-6 col-md-6 col-lg-6">
-                <h2>Method</h2>
-                <ol>
-                    <li>Pick most of the basil leaves into a pestle and mortar and bash to a paste with a pinch of sea
-                        salt. Peel and bash in the garlic, then pound in the almonds until fine. Muddle in 4 tablespoons
-                        of oil, finely grate in the Parmesan, then squeeze in the lemon juice. Season to perfection, and
-                        tweak to your liking.
-                    </li>
-                    <li>Scrub and finely slice the potato, trim just the stalks off the beans, then place both in a pan
-                        of boiling salted water with the tagliatelle and cook according to the pasta packet
-                        instructions. Prep the delicate summer veg as necessary, adding them to the pan for the last 3
-                        minutes. Drain, reserving a mugful of starchy cooking water, then toss with the pesto, loosening
-                        with a splash of reserved cooking water, if needed. Drizzle with 1 tablespoon of oil, and finish
-                        with the remaining basil and a fine grating of Parmesan. Nice served with a crunchy seasonal
-                        salad.
-                    </li>
-                </ol>
-            </div>
-
-
-
-
-
-        </div>
-
-
-
-    </section>
-
-
-
-    <!-------------Related Recipes-------------->
-
-    <section class="container-fluid related-recipes-section g-0">
-        <div class="row text-center justify-content-around g-0">
-            <h2 class="text-uppercase">Related Recipes</h2>
-            <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-                <a href="roasted_blackbean_burgers.html">
-                    <img src="assets/images/roasted_blackbean_burgers.jpg" class="img-fluid recipe-image"
-                        alt="Blackbean Burgers">
-                    <div class="recipe-link-text">Roasted Blackbean Burgers</div>
-                </a>
-            </div>
-        
-
-        <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-            <a href="tempura-rolls.html">
-                <img src="assets/images/tempura-rolls.jpg" class="img-fluid recipe-image" alt="Tempura Rolls">
-                <div class="recipe-link-text">Tempura Rolls</div>
-            </a>
-        </div>
-
-        <div class="col-10 col-sm-3 col-md-3 col-lg-3 recipe-thumbnail">
-            <a href="squash_and_feta_soup.html">
-                <img src="assets/images/squash_feta_soup.jpg" class="img-fluid recipe-image" alt="Squash and Feta Soup">
-                <div class="recipe-link-text">Squash and Feta Soup</div>
-            </a>
-        </div>
-        </div>
-
-    </section>
-
-
-    <!-------------Footer-------------->
-
-    <footer class="container-fluid bg-color-footer">
-        <div class="row justify-content-around g-0">
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-copyright text-uppercase d-none d-md-block d-lg-block">
-                <i class="far fa-copyright" aria-hidden="true"></i><span class="copyright-text"> Jeff Gallagher
-                    2021</span>
-                <span class="sr-only">Copyright</span>
-            </div>
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-title">
-                <p>The Veg Table
-                </p>
-            </div>
-
-            <div class="col-12 col-sm-3 col-md-3 col-lg-3 footer-social-title">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://twitter.com/home" target="_blank">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-
-</body>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
 </html>
