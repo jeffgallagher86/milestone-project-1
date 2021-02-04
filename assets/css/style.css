@@ -122,6 +122,11 @@ h5 {
     font-family: "Open Sans", sans-serif;
 }
 
+.about-me-sign-up {
+    font-weight: bold;
+    color: #f58800;
+}
+
 /* ----------------------------------------------------Featured Recipes */
 
 .featured-recipes-section {
