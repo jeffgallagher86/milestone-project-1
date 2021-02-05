@@ -290,10 +290,6 @@ li {
     border-color: #266867;
 }
 
-.form-control {
-    width: 95%;
-}
-
 .form-control:focus {
     outline: none !important;
     border: 1px solid #fff;
