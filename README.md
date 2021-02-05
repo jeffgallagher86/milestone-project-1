@@ -4,18 +4,7 @@ The Veg Table is a vegetarian food website which seeks to cater to vegetarians a
 
 [View Live Website Here](https://jeffgallagher86.github.io/milestone-project-1/)
 
-![alt text](assets/Docs/the_veg_table_multi_device_mock_up.png "The Veg Table")
-
-# Contents
-
-*
-*
-*
-*
-*
-*
-*
-*
+![The Veg Table](assets/Docs/the_veg_table_multi_device_mock_up.png "The Veg Table")
 
 # UX
 ## User Stories
@@ -23,6 +12,8 @@ The Veg Table is a vegetarian food website which seeks to cater to vegetarians a
 ## Site Owners Business Goals
 
 # Features
+
+* [Balsamiq Wireframes PDF](https://github.com/jeffgallagher86/milestone-project-1/blob/94e681eb112f7a37db2d90122c021efbb7b6efab/assets/Docs/Milestone%201%20Large%20screen.pdf)
 
 # Technologies Used
 

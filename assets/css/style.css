@@ -130,6 +130,11 @@ h5 {
     color: #f58800;
 }
 
+.about-me-sign-up:hover {
+    color: #266867;
+    transition: all 0.5s ease-in-out;
+}
+
 /* ----------------------------------------------------Featured Recipes */
 
 .featured-recipes-section {
@@ -294,7 +299,7 @@ li {
     outline: none !important;
     border: 1px solid #fff;
     box-shadow: 0 0 10px #f58800;
-}
+} 
 
 /* ----------------------------------------------------Footer */
 
